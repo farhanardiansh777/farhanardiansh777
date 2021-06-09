@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @farhanardiansh777
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-farhanardiansh777/farhanardiansh777 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<html>
+    <body>
+        <h1>Hai cantikkkk</h1>
+        <img src="https://media1.giphy.com/media/a9QBC2aru310k/giphy.gif?cid=790b7611533f054e8ed4a6db457afc4597adb3b40abf1d8b&rid=giphy.gif&ct=g">
+        <h1>Mau ga jadi pacarku?</h1>
+        <button id='btn_mau' onclick='alert("I <3 U")'>Mau</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>Gamau</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
